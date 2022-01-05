@@ -14,7 +14,8 @@ namespace myTiles {
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "level1":
-            case "level1":return tiles.createTilemap(hex`0a0008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000907070707070708000002010101010101030000040606060606060500`, img`
+            case "level1":return tiles.createTilemap(hex`0a000900000800080000080008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000604040404040405000002010101010101030007070707070707070707`, img`
+. . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
@@ -23,7 +24,7 @@ namespace myTiles {
 . . . . . . . . . . 
 . 2 2 2 2 2 2 2 2 . 
 . 2 2 2 2 2 2 2 2 . 
-`, [myTiles.transparency16,sprites.castle.tilePath2,sprites.castle.tilePath1,sprites.castle.tilePath3,sprites.castle.tilePath4,sprites.castle.tilePath6,sprites.castle.tilePath5,sprites.swamp.swampTile1,sprites.swamp.swampTile2,sprites.swamp.swampTile0], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.castle.tilePath2,sprites.castle.tilePath1,sprites.castle.tilePath3,sprites.swamp.swampTile1,sprites.swamp.swampTile2,sprites.swamp.swampTile0,sprites.dungeon.hazardLava0,sprites.dungeon.collectibleRedCrystal], TileScale.Sixteen);
         }
         return null;
     })

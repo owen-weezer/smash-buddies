@@ -31,18 +31,17 @@
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwYTAwMDgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA5MDcwNzA3MDcwNzA3MDgwMDAwMDIwMTAxMDEwMTAxMDEwMzAwMDAwNDA2MDYwNjA2MDYwNjA1MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMDIyMjIyMjAyMjAyMjIyMjIwMg==",
+        "data": "MTAwYTAwMDkwMDAwMDgwMDA4MDAwMDA4MDAwODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDYwNDA0MDQwNDA0MDQwNTAwMDAwMjAxMDEwMTAxMDEwMTAzMDAwNzA3MDcwNzA3MDcwNzA3MDcwNzAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMDIyMjIyMjAyMjAyMjIyMjIwMg==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.castle.tilePath2",
             "sprites.castle.tilePath1",
             "sprites.castle.tilePath3",
-            "sprites.castle.tilePath4",
-            "sprites.castle.tilePath6",
-            "sprites.castle.tilePath5",
             "sprites.swamp.swampTile1",
             "sprites.swamp.swampTile2",
-            "sprites.swamp.swampTile0"
+            "sprites.swamp.swampTile0",
+            "sprites.dungeon.hazardLava0",
+            "sprites.dungeon.collectibleRedCrystal"
         ],
         "displayName": "level1"
     },
