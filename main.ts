@@ -46,9 +46,9 @@ game.onUpdate(function () {
     }
 })
 game.onUpdate(function () {
-    if (greensnake.vy < 0) {
-        greensnake.setImage(greensnake_right_image)
+    if (greensnake.vx < 0) {
+        greensnake.setImage(greensnake_left_image)
     } else {
-    	
+        greensnake.setImage(greensnake_right_image)
     }
 })
